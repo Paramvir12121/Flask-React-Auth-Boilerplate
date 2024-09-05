@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <ProtectedRoute />,
         children: [
           { path: ROUTES.DASHBOARD, element: <Dashboard /> },
-          { path: ROUTES.CHECKOUT, element: <Checkout /> },
+          // { path: ROUTES.CHECKOUT, element: <Checkout /> },
           // Add other protected routes here
         ],
         errorElement: <NotFoundPage />,
