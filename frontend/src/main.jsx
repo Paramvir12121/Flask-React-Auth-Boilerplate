@@ -4,7 +4,6 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Bootstrap import
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cookies from 'js-cookie';
 
 import Login from "./auth/Login";
 import { App } from "./App";
@@ -18,15 +17,10 @@ import Signup from './auth/Singup';
 import ForgotPassoword from './auth/resetPassword/ForgotPassoword';
 import ForgotPasswordEmail from './auth/resetPassword/ForgotPasswordEmail';
 import ResetPasswordConfirm from './auth/resetPassword/ResetPasswordConfirm';
-import Checkout from './pages/stripe/Checkout';
 import ProtectedRoute from './auth/ProtectedRoutes';
 
 
-import LandingPage from './pages/introPages/LandingPage';
-
-
-
-
+import LandingPage from './pages/landingPage/LandingPage';
 import ROUTES from "./Routes";  // Import the routes
 
 const router = createBrowserRouter([
